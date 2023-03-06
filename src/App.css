@@ -1,13 +1,17 @@
 body {
-  background: #333;
   color: #fff;
+  background: #333;
 }
+
 
 .App {
   padding: 30px;
   display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .App > div {
-  margin-right: 50px;
+  padding: 25px;
+  border: 1px solid #fff;
 }
